@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Basics of CSS</title>
+</head>
+<body>
+    <div class="my-div">
+        <h1>Welcome to our Programming School</h1>
+
+        <h1 class="my-h1">Testing Class Selectors</h1>
+        
+        <button disabled>Click Me!</button>
+        <!-- ! Selector types -->
+         <h1>Selector Types:</h1>
+
+         <ol id="selector-types">
+            <li>Element Selector( h1 { color:blue; } )</li>
+            <li>Class Selector( .neka-klasa { color:red; } )</li>
+            <li>Universila Selector(* { backgroun-color:green; } )</li>
+            <li>ID Selector( #neki-id { color: yellow; } )</li>
+            <li>Attribute Selector( [disabled] {color: white; } )</li>
+         </ol>
+
+        <!-- ! Levels of Specificity (Hierarchy) -->
+
+         <ol>
+            <li>Element Selectors (h1, p, h3, img), and pseudo-elements (::after, ::before) </li>
+            <li>Class Selector (.neka-klasa), and pseudo-class (:pseudo-class) and Attribute Selectors ( [disabled] )</li>
+            <li>ID Selectors (#neki-id)</li>
+            <li>Inline CSS Style (h1 color:red;)</li>
+         </ol>
+
+         <p class="my-paragraph" id="id-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Esse alias id repudiandae similique reiciendis accusantium,
+            dolores mollitia sapiente magni rem quaerat aperiam veniam maxime corporis reprehenderit harum unde! Vel,
+            quo.
+        </p>
+
+        <!-- ! Combinators -->
+        <h4>First h4 element</h4>
+        <h4>Second h4 element</h4>
+        <h4 class="my-h4">Third h4 element</h4>
+
+    </div>
+</body>
+</html>
