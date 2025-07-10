@@ -1,0 +1,9 @@
+body {
+    margin: 0; /* body element ima po default-u marginu od 8 px zato stavljamo da je 0*/
+}
+
+.hero-overview {
+    padding: 20px;
+    border: 1px solid black;
+    margin: 15px;
+}
