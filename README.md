@@ -4,38 +4,74 @@ This repository contains my daily CSS practice exercises.
 I am learning and applying various CSS concepts including:
 
 - Selectors and specificity
+- Box model (box-sizing, margin, padding, border)
+- Display property (`block`, `inline`, `inline-block`, `none`)
 - Layouts (Flexbox, Grid)
-- Typography and colors
 - Responsive design
+- Typography and colors
 - Animations and transitions
 
 ---
 
-# Day 2 – CSS Box-Sizing Practice
+## ✅ Day 1 – CSS Selectors and Specificity
 
-This folder contains a basic example for exploring the `box-sizing` property in CSS.
+Practiced different CSS selector types and specificity hierarchy:
 
-## What was done
+- Element, Class, ID, Universal, Attribute selectors
+- Specificity levels and overriding styles
+- Applied multiple selectors to a paragraph to test priority
 
-- Created a simple HTML structure (`div.hero-overview`) with heading
-- Applied basic styles using external CSS:
-  - Removed default body margin
-  - Added padding, border, and margin to `.hero-overview`
-  - Introduced `box-sizing: border-box` to control element dimensions
-  
-## What's next
+## ✅ Day 2 – Box-Sizing and Display Property
 
-I'm continuing to learn about the `box-sizing` property, how it affects layout, and how it combines with width, padding, and border. This is just the beginning of the layout model practice.
+Focused on two core layout concepts: box-sizing and display.
 
-✅ I will keep updating this as I go through more layout-related topics like:
-- Content-box vs border-box
-- Width/height calculations
-- Box model visualization
+### 🧱 Box-Sizing
+
+- Practiced `content-box` and `border-box` models
+- Applied width, padding, and border to visualize layout behavior
+- Compared how total width is calculated under different box models
+
+### 🎯 Display Property
+
+- Used `block`, `inline`, `inline-block`, `none`, and `visibility: hidden`
+- Demonstrated layout behavior of each display type
+- Tested margin and width/height interaction for inline/inline-block
 
 ---
 
-Stay tuned for more daily progress.
+## 📂 Project Structure
+/project-root
+│
+├── index.html ← Main page with header and navigation
+├── style.css ← Global styles and fonts
+├── box-sizing-display.html ← Practice file for Day 2 concepts
+├── README.md
+│
+├── courses/
+│ └── index.html ← Placeholder page for "Courses"
+│
+├── team/
+│ └── index.html ← Placeholder page for "Our Team"
+│
+└── CSS/
+└── box-sizing-and-display.css
 
-## Progress
 
-- ✅ Day 1 – CSS Selectors and Specificity
+
+---
+
+## 🛠️ Next Steps
+
+- Add layout sections to the main site (`hero`, `about`, `courses`, etc.)
+- Practice responsive layout with `Flexbox` and `Grid`
+- Move into `Tailwind CSS` once core CSS is strong
+- Then: JavaScript → React → Full Stack 🔥
+
+---
+
+## 🚀 Stay Tuned
+
+This repo will be updated daily as I move through CSS and beyond.
+
+> Follow my journey on [LinkedIn](https://www.linkedin.com/in/dejan-karaka%C5%A1evi%C4%87-169a0b215/)  
+> Projects hosted on [GitHub](https://github.com/Dejan1999)
