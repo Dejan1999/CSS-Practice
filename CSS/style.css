@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+/* Universal Selector */
+* {
+    background-color: rgb(201, 186, 186);
+}
+
+/* Element Selector */
+h1 {
+    color: #2bab05;
+    font-family: "Courier Prime", monospace;
+}
+
+/* Class Selector */
+.my-h1 {
+    color: #dd3300;
+    font-family: "Courier Prime", monospace;
+    font-size: 35px;
+}
+
+/* ID Selector */
+#selector-types{
+    color: purple;
+}
+
+/* Attribute Selector */
+[disabled] {
+    font-size: 20px;
+    color: red;
+}
+
+/* ? Levels of specificity on p element */
+p {
+    font-size: 20px;
+    color: red;
+}
+
+.my-paragraph {
+    color: blue;
+}
+
+#id-paragraph {
+    color: #bd067d;
+}
+
+/* Kombinator (kombinacija 2 tipa selektora) */
+.my-div h4 {
+    color: rgb(232, 159, 23);
+}
+
+.my-h4 {
+    color: blue; /* Ovde je definisana samo klasa a kod gornjeg kombinatora i klasa i element */
+}

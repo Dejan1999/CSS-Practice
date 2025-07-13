@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; /* body element ima po default-u marginu od 8 px zato stavljamo da je 0*/
+}
+
+.hero-overview {
+    padding: 20px;
+    border: 1px solid black;
+    margin: 15px;
+    width: 50%; /* uzima 50% od parent elementa u ovom slucaju body elementa*/
+    height: 250px;
+}
+
+.hero-overview h1 {
+    width: 200px;
+}
+
+.content-box {
+    box-sizing: content-box;
+    width: 500px;
+    height: 100px;
+    padding: 25px;
+    margin: 10px;
+    border: 2px solid red;
+    background-color: rgb(240, 217, 217);
+}
+
+.border-box {
+    /* box-sizing: border-box; */
+    width: 500px;
+    height: 100px;
+    padding: 25px;
+    margin: 10px;
+    border: 2px solid green;
+    background-color: rgb(207, 231, 207);
+}
+
+/* ! display:block; */
+.block-element {
+    border: 1px solid blue;
+    margin: 15px;
+    width: 200px;
+    height: 50px;
+}
+
+/* ! display:inline; */
+.inline-element {
+    border: 1px solid orange;
+    height: 200px;
+    width: 200px; /*Kod inline elemenate se nece uzimati width i height*/
+}
+
+/* ! display: inline-block */
+.inline-block-element {
+    display: inline-block;
+    border: 1px solid green;
+    height: 50px;
+    width: 200px;
+    margin: 15px; /*! shorthand property*/
+    /* margin: 50px 100px; */
+    /* margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-right: 50px; */
+}
+
+.not-shown {
+    /* display: none; */
+    visibility: hidden;
+}
