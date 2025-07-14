@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+.main-wrapper div {
+    border: 1px solid black;
+    padding: 20px;
+    /* height: 300px; */
+    /* margin-right: 10px; */
+}
+
+.main-wrapper {
+    /*! Vezbanje flex-direction: row;*/
+    /* height: 100vh;
+    display: flex;
+    flex-direction: row-reverse; /*? po defaultu je row */
+    /* flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end; */ 
+
+    /*! Vezbanje flex-direction: column;*/
+    height: 100vh;
+    display: flex;
+    /* flex-flow: row wrap; */ /*? Shorthand property */
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.box-num-1 {
+    flex-basis: 250px;
+    /* flex-grow: 1; /* ? Flex grow definise sirini nekog elementa a order definise nacin pozicioniranja*/
+    /* order: 2; */
+}
+
+.box-num-2 {
+    flex-basis: 250px;
+    flex: 1 0 auto; /*? Shorthand property za redom: flex-grow, flex-shrink, flex-basis*/
+    /* flex-grow: 1;
+    order: 1; */
+}
+
+.box-num-3 {
+    flex-basis: 250px;
+    /* flex-grow: 1;
+    order: 3; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

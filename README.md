@@ -73,5 +73,48 @@ Focused on two core layout concepts: box-sizing and display.
 
 This repo will be updated daily as I move through CSS and beyond.
 
-> Follow my journey on [LinkedIn](https://www.linkedin.com/in/dejan-karaka%C5%A1evi%C4%87-169a0b215/)  
-> Projects hosted on [GitHub](https://github.com/Dejan1999)
+## ✅ Day 3 – Flexbox Basics Practice
+
+Focused on Flexbox container and item properties.
+
+### 🧩 Flexbox Container Properties
+- `display: flex`
+- `flex-direction`
+- `flex-wrap`
+- `justify-content`
+- `align-items`
+- `flex-flow` shorthand
+
+### 🎯 Flexbox Item Properties
+- `flex-basis`
+- `flex-grow`
+- `order`
+- `flex` shorthand for grow, shrink, basis
+
+Created a simple layout with three boxes practicing direction, wrapping, alignment, and sizing.
+
+---
+
+## ✅ Project Structure Updated
+/project-root  
+│  
+├── index.html ← Main project page  
+├── style.css ← Main CSS  
+├── box-sizing-display.html ← Box model & display practice  
+├── flexbox.html ← Flexbox layout practice  
+├── README.md  
+│  
+├── CSS/  
+│   ├── box-sizing-and-display.css  
+│   └── flexbox.css  
+│  
+├── courses/  
+│   └── index.html  
+│  
+├── team/  
+│   └── index.html  
+│  
+└── assets/  
+    └── (images, logos, etc.)
+
+---
