@@ -95,26 +95,25 @@ Created a simple layout with three boxes practicing direction, wrapping, alignme
 
 ---
 
-## ✅ Project Structure Updated
-/project-root  
-│  
-├── index.html ← Main project page  
-├── style.css ← Main CSS  
-├── box-sizing-display.html ← Box model & display practice  
-├── flexbox.html ← Flexbox layout practice  
-├── README.md  
-│  
-├── CSS/  
-│   ├── box-sizing-and-display.css  
-│   └── flexbox.css  
-│  
-├── courses/  
-│   └── index.html  
-│  
-├── team/  
-│   └── index.html  
-│  
-└── assets/  
-    └── (images, logos, etc.)
+✅ Day 4 – CSS Grid Basics Practice
+📐 Grid Container Properties
+display: grid
 
----
+grid-template-rows and grid-template-columns for defining rows and columns
+
+gap for controlling spacing between grid items
+
+🎯 Grid Item Styling
+Styled grid items using nth-child() selector
+
+Practiced setting width, height, and controlling item positioning
+
+🛠️ Next Steps
+Practice more with CSS Grid (positioning, spanning, grid areas)
+
+Add responsive behavior with media queries
+
+Start with Tailwind CSS after mastering core concepts
+
+JavaScript → React → Full Stack
+
