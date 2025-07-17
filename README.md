@@ -39,40 +39,6 @@ Focused on two core layout concepts: box-sizing and display.
 
 ---
 
-## 📂 Project Structure
-/project-root
-│
-├── index.html ← Main page with header and navigation
-├── style.css ← Global styles and fonts
-├── box-sizing-display.html ← Practice file for Day 2 concepts
-├── README.md
-│
-├── courses/
-│ └── index.html ← Placeholder page for "Courses"
-│
-├── team/
-│ └── index.html ← Placeholder page for "Our Team"
-│
-└── CSS/
-└── box-sizing-and-display.css
-
-
-
----
-
-## 🛠️ Next Steps
-
-- Add layout sections to the main site (`hero`, `about`, `courses`, etc.)
-- Practice responsive layout with `Flexbox` and `Grid`
-- Move into `Tailwind CSS` once core CSS is strong
-- Then: JavaScript → React → Full Stack 🔥
-
----
-
-## 🚀 Stay Tuned
-
-This repo will be updated daily as I move through CSS and beyond.
-
 ## ✅ Day 3 – Flexbox Basics Practice
 
 Focused on Flexbox container and item properties.
@@ -91,29 +57,64 @@ Focused on Flexbox container and item properties.
 - `order`
 - `flex` shorthand for grow, shrink, basis
 
-Created a simple layout with three boxes practicing direction, wrapping, alignment, and sizing.
+Created simple layouts with flex containers and practiced direction, wrapping, alignment, and sizing.
 
 ---
 
-✅ Day 4 – CSS Grid Basics Practice
-📐 Grid Container Properties
-display: grid
+## ✅ Day 4 – CSS Grid Basics Practice
 
-grid-template-rows and grid-template-columns for defining rows and columns
+Focused on CSS Grid container and item behavior.
 
-gap for controlling spacing between grid items
+### 📐 Grid Container Properties
+- `display: grid`
+- `grid-template-rows` and `grid-template-columns` for defining grid structure
+- `gap` for controlling spacing between grid items
+- `grid-auto-rows` for implicit row sizing
 
-🎯 Grid Item Styling
-Styled grid items using nth-child() selector
+### 🎯 Grid Item Properties
+- Used `nth-child()` selector for alternate styling
+- Controlled grid item positioning with `grid-column-start` and `grid-column-end`
+- Practiced spanning grid columns and making responsive layouts with `auto-fit` and `minmax()`
 
-Practiced setting width, height, and controlling item positioning
+---
 
-🛠️ Next Steps
-Practice more with CSS Grid (positioning, spanning, grid areas)
+## 📂 Project Structure (Updated)
+/project-root  
+│  
+├── index.html ← Main page  
+├── style.css ← Global styles  
+├── box-sizing-display.html ← Box model & display practice  
+├── flexbox.html ← Flexbox practice  
+├── grid.html ← Grid practice  
+├── README.md  
+│  
+├── CSS/  
+│   ├── box-sizing-and-display.css  
+│   ├── flexbox.css  
+│   └── grid.css  
+│  
+├── courses/  
+│   └── index.html  
+│  
+├── team/  
+│   └── index.html  
+│  
+└── assets/  
+    └── (images, logos, etc.)
 
-Add responsive behavior with media queries
+---
 
-Start with Tailwind CSS after mastering core concepts
+## 🛠️ Next Steps
 
-JavaScript → React → Full Stack
+- Practice advanced positioning and grid-area usage with CSS Grid
+- Add responsive behavior with media queries  
+- Start with Tailwind CSS after mastering core concepts  
+- JavaScript → React → Full Stack 🔥
 
+---
+
+## 🚀 Stay Tuned
+
+This repo will be updated daily as I move through CSS and beyond.  
+> Follow my journey on [LinkedIn](https://www.linkedin.com/in/dejan-karaka%C5%A1evi%C4%87-169a0b215/)  
+> Projects hosted on [GitHub](https://github.com/Dejan1999)
