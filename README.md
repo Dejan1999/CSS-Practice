@@ -78,6 +78,19 @@ Focused on CSS Grid container and item behavior.
 
 ---
 
+✅ Day 5 – Responsive Flexbox Pricing Section
+Practiced creating a responsive pricing section using Flexbox:
+
+Built cards with semantic <article> elements
+
+Aligned cards in a row using display: flex with flex-wrap for responsiveness
+
+Styled cards with hover effects and box-shadow
+
+Added media queries for better mobile layout
+
+---
+
 ## 📂 Project Structure (Updated)
 /project-root  
 │  
