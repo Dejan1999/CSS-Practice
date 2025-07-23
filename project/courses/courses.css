@@ -1,0 +1,29 @@
+@import url(../style.css);
+
+.courses-wrapper {
+    padding: 50px;
+    margin: 0;
+    width: 100%;
+    background-image: url(../assets/courses-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.coureses-wrapper__course {
+    border: 5px solid #ef9273;
+    width: 50%;
+    background: #fef9f8;
+    padding: 25px;
+    margin-bottom: 25px;
+    opacity: 0.85;
+}
+
+.coureses-wrapper__course:hover {
+    border-color: #e9c9bf;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
