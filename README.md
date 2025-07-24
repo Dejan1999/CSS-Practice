@@ -117,12 +117,41 @@ Added media queries for better mobile layout
 
 ---
 
-## 🛠️ Next Steps
+## 📚 Courses Page
 
-- Practice advanced positioning and grid-area usage with CSS Grid
-- Add responsive behavior with media queries  
-- Start with Tailwind CSS after mastering core concepts  
-- JavaScript → React → Full Stack 🔥
+The **Courses** page showcases three levels of our web development program:
+
+- ✅ Basic (HTML5, CSS3, JavaScript - ES6)
+- ✅ Intermediate (HTML5, CSS3, JavaScript - ES5 & ES6)
+- ✅ Advanced (HTML5, CSS3 with SASS/SCSS, JavaScript with OOP)
+
+Each course is presented in its own styled container with a short description and custom layout. The design emphasizes structure using:
+
+- `Flexbox` for layout alignment and ordering
+- `Positioning` and `Z-index` for layered effects (e.g. "Recommended" badge)
+- Custom fonts (`Source Code Pro` and `Courier Prime`)
+- Responsive-friendly sizing (`min-width`, `min-height`)
+- Hover effects and transitions
+
+### 🎨 Tools & Skills Used
+
+- HTML5 & CSS3
+- Flexbox
+- Positioning & Layering
+- Font styling
+- Responsive design
+- File organization & component separation
+
+➡️ This page is part of the full **Frontend Project** that includes:
+- Home page
+- Courses
+- Our Team (coming soon)
+- Enrollment
+
+---
+
+🧠 *Learning by Doing* – Every section in this project reflects my current progress and learning stage. I will keep expanding it as I improve.
+
 
 ---
 
