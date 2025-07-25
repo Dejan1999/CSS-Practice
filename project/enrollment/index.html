@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./enrollment.css">
     <title>Enrollment</title>
 </head>
 <body>
-    <h1>Enrollment form</h1>
+    <!-- ! Header Section -->
+    <header class="main-header">
+        <div class="main-header__logo">
+            <a href="index.html">
+              <img src="../assets/logo.png" alt="logo_image">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item li-first">
+                    <a href="./courses/index.html">
+                        Courses
+                    </a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="./team/index.html">
+                        Our Team
+                    </a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="./enrollment/index.html">
+                        Enrollment
+                    </a>
+                </li>
+            </ul>
+        </nav>
+     </header>
+
+     <!-- ! Main Section -->
+      <main>
+        <form class="enrollment-form">
+            <h1>Enroll for one of our courses</h1>
+
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="course">Choose course</label>
+            <select name="course" id="course">
+                <option value="basic">Basic</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <label for="message">Additional message</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+      </main>
+
 </body>
 </html>
